@@ -34,7 +34,7 @@ const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
 };
 return (
-    <div className=' bg-accordion_Bg bg-black bg-no-repeat bg-cover mt-[-2px] lg:pb-[55px] md:pb-[48px] max-sm:pb-[15px] pb-3' id='section_5'>
+    <div className=' accordian_img bg-black bg-no-repeat bg-cover mt-[-2px] lg:pb-[55px] md:pb-[48px] max-sm:pb-[15px] pb-3' id='section_5'>
         <div className=' container mx-auto px-3'>
             <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
                 <h2 className='font-Orbitron font-bold text-[42px] max-md:text-[38px] max-sm:text-[35px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white'>FAQ</h2>

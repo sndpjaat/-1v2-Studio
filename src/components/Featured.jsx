@@ -1,8 +1,8 @@
 import React from 'react'
-import Three_D_img from '../assets/image/png/Three_D_img.png'
-import Dino_Img from '../assets/image/png/Dino_Img.png'
-import lava_land from '../assets/image/png/lava_land.png'
-import Cat_Washing from '../assets/image/png/Cat_Washing.png'
+import Three_D_img from '../assets/image/webp/Three_D_img.webp'
+import Dino_Img from '../assets/image/webp/Dino_Img.webp'
+import lava_land from '../assets/image/webp/lava_land.webp'
+import Cat_Washing from '../assets/image/webp/Cat_Washing.webp'
 import Slider from 'react-slick'
 
 const Featured = () => {

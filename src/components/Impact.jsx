@@ -1,5 +1,5 @@
 import React from 'react'
-import Horse_IMG from '../assets/image/png/Horse_IMG.png'
+import horse_img from '../assets/image/webp/horse_img.webp'
 import Elpsefrst from '../assets/image/svg/Elpsefrst.svg'
 import faqimg from '../assets/image/png/faqimg.png'
 
@@ -19,7 +19,7 @@ const Impact = () => {
             <h2 className=' font-Orbitron font-bold text-[64px] leading-[83px] text-white'>What 1v2 Studio</h2>
           </div>
           <div className=' md:w-8/12 lg:w-6/12 px-3 w-full pointer-events-none flex justify-center lg:justify-center max-md:mt-[25px] max-lg:mt-[48px] 2xl:p-0'>
-            <img src={Horse_IMG} alt="Horse_IMG" className='w-full max-w-[360px]' />
+            <img src={horse_img} alt="horse_img" className='w-full max-w-[360px]' />
           </div>
           <div className=' md:w-4/12 lg:w-3/12 px-3 w-full  flex max-md:justify-center max-sm:mt-[20px] max-md:mt-[30px] items-center 2xl:p-0'>
             <div className='flex flex-col gap-0 lg:gap-[14px]'>
