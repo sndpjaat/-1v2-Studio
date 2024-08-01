@@ -8,6 +8,7 @@ import Phone_Factory from '../assets/image/svg/Phone_Factory.svg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+// import Slider_Ellpise from '../assets/image/svg/Slider_Ellpise.svg'
 
 const Slidr_Section = () => {
   var settings = {
@@ -23,7 +24,11 @@ const Slidr_Section = () => {
     cssEase: "linear",
   };
   return (
-    <div className='bg-[#141414] '>
+    <div className='bg-[#141414] relative '>
+      {/* <div className='absolute right-0 bottom-0 z-30'>
+        <img src={Slider_Ellpise} alt="Slider_Ellpise"  className='w-full'/>
+
+      </div> */}
         <div className=' bg-light_black py-2 sm:py-3 md:py-5 lg:py-[35px] logo_S lider -my-[2px] z-20 relative'>
           <Slider {...settings}>
             <img className=' max-w-[120px] md:max-w-[151.97px]' src={honair_svg} alt="honair_svg" />

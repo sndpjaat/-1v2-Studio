@@ -10,7 +10,7 @@ const Footer = () => {
                     <img src={Nav_logo} alt="Nav_logo" />
                     <p className='pt-[20px] max-w-[538px] opacity-[70%] font-Poppins font-normal text-[18px] leading-[28.8px] text-center text-white pb-[16px]'>Nulla sollicitudin nullam in scelerisque. Dolor neque pulvinar porttitor id eget volutpat faucibus sed. Tellus libero.</p>
                     <div className='flex justify-center items-center gap-[10px] '>
-                        <a href="https://x.com/?lang=en" target='_blank'><img src={Twiter} alt="Twiter" /></a>
+                        <a href="https://x.com/?lang=en" target='_blank'><img src={Twiter} alt="Twiter" className='cursor-pointer duration-300 ease-linear hover:drop-shadow-[0px_0px_5px_red]'/></a>
                         <a href="https://discord.com/" target='_blank'><img src={Discord} alt="Discord" /></a>
                     </div>
                 </div>

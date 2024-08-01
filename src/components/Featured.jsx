@@ -10,13 +10,14 @@ const Featured = () => {
         dots: true,
         infinite: true,
         speed: 500,
+        autoplay: true,
+        autoplaySpeed: 3000,
         slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth: true,
         arrows: false,
         appendDots: dots => (
-            <div
-                style={{
+            <div style={{
                     position: "absolute",
                     bottom: "-48px",
                     display: "flex",
@@ -29,12 +30,10 @@ const Featured = () => {
                 <ul style={{ margin: "0px , auto" }} className="custom-dots"> {dots} </ul>
             </div>
         ),
-    };
-
-    
+    };    
     return (
         <div className='Featured_bgimg 2xl:bg-100% flex flex-col pb-[80px] sm:pb-[128px] relative md:pb-[168px] lg:pb-[175px] -mt-[2px]'>
-            <Slider {...settings} className=' mx-auto'>
+            <Slider {...settings} className=' mx-auto max-w-[1440px]'>
                 <div className='Fireplace_Bgimg w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
                     <img src={Three_D_img} alt="Three_D_img" className='w-full max-w-[324px]' />
                     <div className='flex items-center gap-[10px] pt-3'>
@@ -75,10 +74,8 @@ const Featured = () => {
                         </div>
                     </div>
                 </div>
-
             </Slider>
         </div>
-        
     )
 }
 

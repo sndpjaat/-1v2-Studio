@@ -14,15 +14,13 @@ const Clients = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         appendDots: dots => (
-            <div
-                style={{
+            <div style={{
                     position: "absolute",
                     bottom: "-48px",
                     width: "100%",
                     display: "flex",
                     justifyContent: "center",
-                }}
-            >
+                }} >
                 <ul style={{ margin: "0px" }} className="custom-dots"> {dots} </ul>
             </div>
         ),
@@ -32,13 +30,8 @@ const Clients = () => {
             <div className='max-w-[1164px] px-3 mx-auto'>
                 <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
                 <h2 className='font-Orbitron font-bold text-center md:text-start text-[42px] max-md:text-[38px] max-sm:text-[30px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white about_Line_Bottom'>Clients Testimonials</h2>
-                    <img
-                        src={faqimg}
-                        alt="about_Line_Bottom"
-                        className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'
-                    />
+                    <img src={faqimg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
                 </div>
-
                 <div className='slider_clients'>
                     <Slider {...settings}>
                         <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]'>
@@ -113,11 +106,8 @@ const Clients = () => {
                                 </div>
                             </div>
                         </div>
-
                     </Slider>
-
                 </div>
-
                 {/* <div className='max-w-[570px] w-full debbi_img mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px] p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] xl:max-w-[1041px] md:max-w-[768px] lg:max-w-[992px]'>
                     <div className='flex max-lg:flex-col max-lg:items-center max-lg gap-4 md:gap-7 lg:gap-10'>
                         <div className='flex flex-col pt-2 '>

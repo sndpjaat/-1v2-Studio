@@ -37,27 +37,15 @@ return (
     <div className=' bg-accordion_Bg bg-black bg-no-repeat bg-cover mt-[-2px] lg:pb-[55px] md:pb-[48px] max-sm:pb-[15px] pb-3' id='section_5'>
         <div className=' container mx-auto px-3'>
             <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
-                <h2 className='font-Orbitron font-bold text-[42px] max-md:text-[38px] max-sm:text-[35px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white'>
-                    FAQ
-                </h2>
-                <img
-                    src={faqimg}
-                    alt="about_Line_Bottom"
-                    className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'
-                />
+                <h2 className='font-Orbitron font-bold text-[42px] max-md:text-[38px] max-sm:text-[35px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white'>FAQ</h2>
+                <img src={faqimg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
             </div>
         </div>
         <div className=' container max-w-[1164px] mx-auto px-3'>
             <div className=' max-w-[480px] sm:max-w-[576px] z-30 md:max-w-[768px] lg:max-w-[884px] mx-auto lg:pt-[72px] md:pt-16 pt-14'>
                 {faqs.map((faq, index) => (
-                    <div
-                        key={index}
-                        className={` overflow-hidden ease-linear custom_duration ${activeIndex === index ? " z-30 border-[1px] border-sky_border bg-gradient shadow_border" : "border-transparent"} mt-6`}
-                    >
-                        <button
-                            onClick={() => toggleAccordion(index)}
-                            className={`${activeIndex === index ? "p-[10px_10px_0px_10px] z-30 lg:p-[21px_20px_0px_20px] border-transparent" : "p-2 lg:p-[21px_20px]"} w-full text-left bg-blur_black backdrop-blur-lg flex items-center justify-between border-[1px] border-[#FFFFFF4D] transition custom_duration ease-in-out `}
-                        >
+                    <div key={index}className={` overflow-hidden ease-linear custom_duration ${activeIndex === index ? " z-30 border-[1px] border-sky_border bg-gradient shadow_border" : "border-transparent"} mt-6`}>
+                        <button onClick={() => toggleAccordion(index)}className={`${activeIndex === index ? "p-[10px_10px_0px_10px] z-30 lg:p-[21px_20px_0px_20px] border-transparent" : "p-2 lg:p-[21px_20px]"} w-full text-left bg-blur_black backdrop-blur-lg flex items-center justify-between border-[1px] border-[#FFFFFF4D] transition custom_duration ease-in-out `}>
                             <span className="font-orbitron font-medium text-base leading-6 z-30 sm:text-lg md:text-[20px] md:leading-[26px] lg:text-2xl lg:leading-9 text-white">{faq.question}</span>
                             <span className="float-right z-30">
                                 <svg width="40" className={`${activeIndex === index ? "transform rotate-180 hidden" : ""} w-[32px] h-[32px] md:w-[40px] md:h-[40px]`} height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,20 +57,15 @@ return (
                                     <path d="M13 19L19 19H21L27 19C27.5523 19 28 19.4477 28 20C28 20.5523 27.5523 21 27 21L21 21L19 21L13 21C12.4477 21 12 20.5523 12 20C12 19.4477 12.4477 19 13 19Z" fill="white" />
                                 </svg>
                             </span>
-
                         </button>
-                        <div
-                            className={`overflow-hidden ease-linear duration-300 ${activeIndex === index ? "h-auto" : "max-h-0"
-                                }`}
-                        >
+                        <div className={`overflow-hidden ease-linear duration-300 ${activeIndex === index ? "h-auto" : "max-h-0"
+                                }`}>
                             <div className=" font-poppins font-normal text-[15px] leading-[20px] lg:text-[18px] lg:leading-[28px] opacity-70 text-white max-w-[759px] p-[2px_8px_8px_8px] lg:p-[6px_20px_17px_20px]">
                                 <p>{faq.answer}</p>
                             </div>
                         </div>
                     </div>
                 ))}
-
-
             </div>
         </div>
     </div>
