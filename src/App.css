@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Header_Bgpic{
+  background-image: url(./assets/image/png/Header_Bgpic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Featured_bgimg{
+  background-image: url(./assets/image/webp/Featured_bgimg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.impact_Bgimg{
+  background-image: url(./assets/image/webp/impact_Bg.img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.Btn_Body{
+  background-image: url(./assets/image/png/Btn_Body.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Fireplace_Bgimg{
+  background-image: url(./assets//image/png/Fireplace_Bgimg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-link {
-  color: #61dafb;
+.debbi_img{
+  background-image: url(./assets/image/webp/debbi_img.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Suscribe_BG_img{
+  background-image: url(./assets/image//png/Suscribe_BG_img.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.news_Bg{
+  background-image: url(./assets/image/webp/suscribe_Bg_img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer_Bg_img{
+  background-image: url(./assets/image/webp/footer_Bg_img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-slide {
+  margin: 0 12px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -12px;
 }
