@@ -7,7 +7,7 @@ import dollor from '../assets/image/svg/dollor.svg'
 import redCircle from '../assets/image/svg/redCircle.svg'
 const Footer = () => {
     return (
-        <div className='bg-black footerBgImg mt-[-2px]'>
+        <div className='bg-black bg-footerBgImg bg-cover bg-no-repeat bg-center mt-[-2px]'>
             <div className='relative'>
                 <div className='absolute left-0 top-0 z-0'>
                     <img src={footerSection} alt="footerSection" />

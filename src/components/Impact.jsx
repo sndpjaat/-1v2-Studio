@@ -7,7 +7,7 @@ import our from '../assets/image/svg/our.svg'
 
 const Impact = () => {
   return (
-    <div className='impactBgImg 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px] relative'>
+    <div className=' bg-impactBg bg-cover bg-center 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px] relative'>
       <div className='relative'>
         <div className='absolute left-0 top-0 z-60'>
           <img src={imPact} alt="imPact" />

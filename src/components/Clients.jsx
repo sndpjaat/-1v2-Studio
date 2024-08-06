@@ -52,7 +52,7 @@ const Clients = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]' data-aos="zoom-in">
+                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]'>
                             <div className='mx-auto bg-hagenes_Bg bg-no-repeat bg-100% max-w-[1041px] max-lg:max-w-[700px]  max-xl:pr-[30px] max-sm:pr-[15px] max-sm:pl-[15px] max-xl:pl-[30px] pt-[42px] pr-[60px] pb-[41px] pl-[59px]'>
                                 <div className=' flex lg:flex-row flex-wrap -mx-3 flex-col-reverse '>
                                     <div className='lg:w-8/12 w-12/12 px-3 flex justify-center max-lg:pt-9 max-sm:pt-4 max-md:pt-8'>
@@ -70,7 +70,7 @@ const Clients = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]' data-aos="zoom-in">
+                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]'>
                             <div className='mx-auto bg-hagenes_Bg bg-no-repeat bg-100% max-w-[1041px] max-lg:max-w-[700px]  max-xl:pr-[30px] max-xl:pl-[30px] pt-[42px] pr-[60px] pb-[41px] pl-[59px]'>
                                 <div className=' flex lg:flex-row flex-wrap -mx-3 flex-col-reverse '>
                                     <div className='lg:w-8/12 w-12/12 px-3 flex justify-center max-lg:pt-9 max-sm:pt-4 max-md:pt-8'>
@@ -88,7 +88,7 @@ const Clients = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]' data-aos="zoom-in">
+                        <div className='pt-[113px] max-sm:pt-12 max-md:pt-[80px] max-lg:pt-[90px]'>
                             <div className='mx-auto bg-hagenes_Bg bg-no-repeat bg-100% max-w-[1041px] max-lg:max-w-[700px]  max-xl:pr-[30px] max-xl:pl-[30px] pt-[42px] pr-[60px] pb-[41px] pl-[59px]'>
                                 <div className=' flex lg:flex-row flex-wrap -mx-3 flex-col-reverse '>
                                     <div className='lg:w-8/12 w-12/12 px-3 flex justify-center max-lg:pt-9 max-sm:pt-4 max-md:pt-8'>

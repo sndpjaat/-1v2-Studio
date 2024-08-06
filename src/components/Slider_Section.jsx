@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import sliderEllpise from '../assets/image/svg/sliderEllpise.svg'
 
-const Slidr_Section = () => {
+const Slider_Section = () => {
   var settings = {
     dots: false,
     autoplay: true,
@@ -42,4 +42,4 @@ const Slidr_Section = () => {
   )
 }
 
-export default Slidr_Section
+export default Slider_Section

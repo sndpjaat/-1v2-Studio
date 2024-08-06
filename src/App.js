@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Impact from './components/Impact';
 import NewsLetter from './components/NewsLetter';
-import Slidr_Section from './components/Slidr_Section';
+import Slider_Section from './components/Slider_Section';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Faq from './components/Faq';
@@ -33,7 +33,7 @@ function App() {
   return (
     <div className=' overflow-hidden' style={bodyStyle}> 
     <Hero/>
-    <Slidr_Section/>
+    <Slider_Section/>
     <AboutStudio/>
     <Featured/>
     <Impact/>
