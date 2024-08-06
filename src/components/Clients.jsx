@@ -1,10 +1,10 @@
 import React from 'react'
-import Five_Stars from '../assets/image/svg/Five_Stars.svg'
-import girl_img from '../assets/image/png/girl_img.png'
+import fiveStars from '../assets/image/svg/fiveStars.svg'
+import girlImg from '../assets/image/png/girlImg.png'
 import Red_line_d from '../assets/image/svg/Red_line_d.svg'
 import Red_Line_E from '../assets/image/svg/Red_Line_E.svg'
 import Slider from 'react-slick'
-import faqimg from '../assets/image/png/faqimg.png'
+import faqImg from '../assets/image/png/faqImg.png'
 const Clients = () => {
     var settings = {
         dots: true,
@@ -30,7 +30,7 @@ const Clients = () => {
             <div className='max-w-[1164px] px-3 mx-auto'>
                 <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
                 <h2 className='font-Orbitron font-bold text-center md:text-start text-[42px] max-md:text-[38px] max-sm:text-[30px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white about_Line_Bottom'>Clients Testimonials</h2>
-                    <img src={faqimg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
+                    <img src={faqImg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
                 </div>
                 <div className='slider_clients'>
                     <Slider {...settings}>
@@ -42,12 +42,12 @@ const Clients = () => {
                                             <h3 className='font-orbitron font-bold text-42 text-center lg:text-start max-sm:text-3xl leading-[54px] text-white max-w-[400px] gaming_After gaming_Before_2 lg:pl-5 max-md:text-[34px] max-md:leading-[42px] max-sm:text-[27px] max-sm:leading-[32px]'>Debbie Hagenes</h3>
                                             <p className=' max-w-[621px] opacity-[0.7] font-poppins text-center lg:text-start font-normal text-2xl max-md:text-xl max-sm:text-sm leading-[36px] text-white pt-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.</p>
                                             <div className=' pt-6 text-center lg:text-start'>
-                                                <Five_Stars />
+                                                <fiveStars />
                                             </div>
                                         </div>
                                     </div>
                                     <div className=' lg:w-4/12 w-12/12 px-3 flex justify-center lg:justify-start'>
-                                        <img src={girl_img} alt="girl_img" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
+                                        <img src={girlImg} alt="girlImg" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
                                     </div>
                                 </div>
                             </div>
@@ -60,12 +60,12 @@ const Clients = () => {
                                             <h3 className='font-orbitron font-bold text-42 text-center lg:text-start max-sm:text-3xl leading-[54px] text-white max-w-[400px] gaming_After gaming_Before_2 lg:pl-5 max-md:text-[34px] max-md:leading-[42px] max-sm:text-[27px] max-sm:leading-[32px]'>Debbie Hagenes</h3>
                                             <p className=' max-w-[621px] opacity-[0.7] font-poppins text-center lg:text-start font-normal text-2xl max-md:text-xl max-sm:text-sm leading-[36px] text-white pt-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.</p>
                                             <div className=' pt-6 text-center lg:text-start'>
-                                                <Five_Stars />
+                                                <fiveStars />
                                             </div>
                                         </div>
                                     </div>
                                     <div className=' lg:w-4/12 w-12/12 px-3 flex justify-center lg:justify-start'>
-                                        <img src={girl_img} alt="girl_img" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
+                                        <img src={girlImg} alt="girlImg" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
                                     </div>
                                 </div>
                             </div>
@@ -78,12 +78,12 @@ const Clients = () => {
                                             <h3 className='font-orbitron z-30 relative font-bold text-42 text-center lg:text-start max-sm:text-3xl leading-[54px] text-white max-w-[400px] gaming_After gaming_Before_2 lg:pl-5  max-md:text-[34px] max-md:leading-[42px] max-sm:text-[27px] max-sm:leading-[32px]'>Debbie Hagenes</h3>
                                             <p className=' max-w-[621px] z-30 relative opacity-[0.7] font-poppins text-center lg:text-start font-normal text-2xl max-md:text-xl max-sm:text-sm leading-[36px] text-white pt-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.</p>
                                             <div className=' pt-6 text-center z-30 relative lg:text-start'>
-                                                <Five_Stars />
+                                                <fiveStars />
                                             </div>
                                         </div>
                                     </div>
                                     <div className=' lg:w-4/12 w-12/12 px-3 flex justify-center z-30 lg:justify-start'>
-                                        <img src={girl_img} alt="girl_img" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
+                                        <img src={girlImg} alt="girlImg" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
                                     </div>
                                 </div>
                             </div>
@@ -96,12 +96,12 @@ const Clients = () => {
                                             <h3 className='font-orbitron z-30 relative font-bold text-42 text-center lg:text-start max-sm:text-3xl leading-[54px] text-white max-w-[400px] gaming_After gaming_Before_2 lg:pl-5  max-md:text-[34px] max-md:leading-[42px] max-sm:text-[27px] max-sm:leading-[32px]'>Debbie Hagenes</h3>
                                             <p className=' max-w-[621px] z-30 relative opacity-[0.7] font-poppins text-center lg:text-start font-normal text-2xl max-md:text-xl max-sm:text-sm leading-[36px] text-white pt-4'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.</p>
                                             <div className=' pt-6 text-center z-30 relative lg:text-start'>
-                                                <Five_Stars />
+                                                <fiveStars />
                                             </div>
                                         </div>
                                     </div>
                                     <div className=' lg:w-4/12 w-12/12 px-3 flex justify-center lg:justify-start'>
-                                        <img src={girl_img} alt="girl_img" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
+                                        <img src={girlImg} alt="girlImg" className='w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' />
                                     </div>
                                 </div>
                             </div>
