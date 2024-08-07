@@ -5,6 +5,7 @@ import clients_Right from '../assets/image/svg/clients_Right.svg'
 import Slider from 'react-slick'
 import faqImg from '../assets/image/png/faqImg.png'
 import { FiveStar } from '../common/Icons'
+import enterLine from '../assets/image/svg/enterLine.svg'
 const Clients = () => {
     var settings = {
         dots: true,
@@ -14,24 +15,29 @@ const Clients = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         appendDots: dots => (
-          <div
-            style={{
-              position: "absolute",
-              bottom: "-48px",
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <ul style={{ margin: "0px" }} className="custom-dots"> {dots} </ul>
-          </div>
+            <div
+                style={{
+                    position: "absolute",
+                    bottom: "-48px",
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                }}
+            >
+                <ul style={{ margin: "0px" }} className="custom-dots"> {dots} </ul>
+            </div>
         ),
-      };
-      
+    };
+
     return (
 
         <>
             <div className='bg-clientsBg mt-[-2px] relative bg-black bg-cover bg-no-repeat'>
+                <div className='relative'>
+                    <div className='absolute top-[490px] right-3'>
+                        <img src={enterLine} alt="enterLine" className='w-full' />
+                    </div>
+                </div>
                 <div className='flex justify-center relative pt-[87px] max-lg:pt-[79px] max-sm:pt-0 max-md:pt-[70px]'>
                     <h2 className='font-Orbitron font-bold text-center md:text-start text-[42px] z-10 max-md:text-[38px] max-sm:text-[30px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white about_Line_Bottom'>Clients Testimonials</h2>
                     <img src={faqImg} alt="about_Line_Bottom" className='absolute h-[57px] z-0 xl:block hidden w-full bottom-[-17px] left-0' />

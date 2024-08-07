@@ -5,6 +5,7 @@ import faqImg from '../assets/image/png/faqImg.png'
 import imPact from '../assets/image/svg/imPact.svg'
 import our from '../assets/image/svg/our.svg'
 
+
 const Impact = () => {
   return (
     <div className=' bg-impactBg bg-cover bg-center 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px] relative'>
@@ -12,6 +13,7 @@ const Impact = () => {
         <div className='absolute left-0 top-0 z-60'>
           <img src={imPact} alt="imPact" />
         </div>
+        
       </div>
       <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
         <h2 className='font-Orbitron font-bold z-20 text-[42px] max-md:text-[40px] max-sm:text-[38px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white about_Line_Bottom'>Our Impact</h2>

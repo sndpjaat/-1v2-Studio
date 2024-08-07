@@ -15,7 +15,7 @@ const AboutStudio = () => {
                 <h2 className='font-Orbitron font-bold text-[42px] max-md:text-[38px] max-sm:text-[32px] max-sm:leading-[35px] leading-[54.6px] text-white'>About 1v2 Studio</h2>
                 <img src={faqImg} alt="about_Line_Bottom"className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
             </div>
-            <div className='absolute z-0 top-[320px] bottom-0 max-md:hidden hidden xl:flex right-[40px]'>
+            <div className='absolute z-0 top-[470px]  max-md:hidden hidden xl:flex right-[40px]'>
                 <img src={studioEllipse} alt="studioEllipse" className='z-50' />
             </div>
             <div className='max-w-[1164px] px-3 mx-auto relative z-10 '>

@@ -1,11 +1,14 @@
 import React from 'react'
 import Suscribe_btn from '../assets/image/svg/Suscribe_btn.svg'
-
-
-
+import enterLine from '../assets/image/svg/enterLine.svg'
 const NewsLetter = () => {
   return (
     <div className='bg-black my-[-2px] relative py-[46px] '>
+      <div className='relative'>
+        <div className='absolute top-0 left-5'>
+          <img src={enterLine} alt="enterLine" className='w-full' />
+        </div>
+      </div>
       <div className='max-w-[1164px] px-3 mx-auto z-10'>
         <div className='relative'>
           <div className='bg-suscribeBgImg bg-100%  bg-no-repeat bg-center  max-w-[480px] backdrop-blur-md sm:max-w-[576px] md:max-w-[768px] lg:max-w-[900px] mx-auto w-full relative z-20 p-5 sm:p-[25px] md:p-[45px] flex items-center flex-col '>
