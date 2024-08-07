@@ -11,6 +11,7 @@ import Slider_Section from './components/Slider_Section';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Faq from './components/Faq';
+import Clients from './components/Clients';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
     <AboutStudio/>
     <Featured/>
     <Impact/>
-    {/* <Clients/> */}
+    <Clients/>
     <Faq/>
     <NewsLetter/>
     <Footer/>

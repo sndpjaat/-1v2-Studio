@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import faqImg from '../assets/image/png/faqImg.png';
+// import faqImg from '../assets/image/png/faqImg.png';
 
 const Faq = () => {
   const faqs = [
@@ -38,13 +38,13 @@ return (
         <div className=' container mx-auto px-3'>
             <div className='flex justify-center relative pt-[101px] max-lg:pt-[80px] max-md:pt-[70px] max-sm:pt-12'>
                 <h2 className='font-Orbitron font-bold text-[42px] max-md:text-[38px] max-sm:text-[35px] max-sm:leading-[39px] max-md:leading-[45px] leading-[54.6px] text-white'>FAQ</h2>
-                <img src={faqImg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/>
+                {/* <img src={faqImg} alt="about_Line_Bottom" className='absolute xl:block hidden h-[57px] w-full bottom-[-17px] left-0'/> */}
             </div>
         </div>
         <div className=' container max-w-[1164px] mx-auto px-3'>
-            <div className=' max-w-[480px] sm:max-w-[576px] z-30 md:max-w-[768px] lg:max-w-[884px] mx-auto lg:pt-[72px] md:pt-16 pt-14'>
+            <div className=' max-w-[480px] sm:max-w-[576px] z-30 md:max-w-[768px] lg:max-w-[884px] mx-auto lg:pt-[72px]  md:pt-16 pt-14'>
                 {faqs.map((faq, index) => (
-                    <div key={index}className={` overflow-hidden ease-linear custom_duration ${activeIndex === index ? " z-30 border-[1px] border-[#3EBFFF] bg-custom_red_gradient accordion_Color complex-gradient':  border-sky_border bg-gradient shadow_border" : "border-transparent"} mt-6`}>
+                    <div key={index}className={` overflow-hidden ease-linear custom_duration ${activeIndex === index ? " z-30 border-[1px] border-[#3EBFFF] bg-custom_red_gradient accordion_Color complex-gradient' bg-[#B90606]  border-sky_border bg-gradient shadow_border" : "border-transparent"} mt-6`}>
                         <button onClick={() => toggleAccordion(index)}className={`${activeIndex === index ? "p-[10px_10px_0px_10px] z-30 lg:p-[21px_20px_0px_20px] border-transparent" : "p-2 lg:p-[21px_20px]"} w-full text-left bg-blur_black backdrop-blur-lg flex items-center justify-between border-[1px] border-[#FFFFFF4D] transition custom_duration ease-in-out `}>
                             <span className="font-orbitron font-medium text-base leading-6 z-30 sm:text-lg md:text-[20px] md:leading-[26px] lg:text-2xl lg:leading-9 text-white">{faq.question}</span>
                             <span className="float-right z-30">

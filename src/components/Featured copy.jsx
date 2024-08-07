@@ -70,25 +70,25 @@ const Featured = () => {
             </div>
             <div className=' feature_Slider pt-[89px] pb-[125px] max-sm:pt-12 max-md:pt-[60px] max-lg:pb-[90px] z-40  '>
                 <Slider {...settings} className='h-full'>
-                    <div className='bg-fireplaceBgimg w-full bg-no-repeat bg-center bg-100% max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
+                    <div className='bg-fireplaceBgimg bg-cover w-full  bg-center  max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
                         <img src={threeDimg} alt="threeDimg" className='w-full max-w-[324px]' />
                         <h2 className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF] pt-[16px]'>300+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Active Players <span className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF]'>800+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Visits</span></span></span></h2>
                         <p className='pt-[16px] max-w-[324px] font-Orbitron font-bold text-[24px] leading-[31px] text-white'>3D Maze</p>
                         <p className='pt-[12px] max-w-[324px] opacity-[70%] font-Poppins font-normal text-[18px] leading-[28px] text-white'>Develop a 3D maze game in Roblox: a fun, challenging project that enhances creativity and problem-solving skills for students.</p>
                     </div>
-                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-100%  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
+                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-size  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
                         <img src={dinoImg} alt="dinoImg" className='w-full max-w-[324px]' />
                         <h2 className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF] pt-[16px]'>400+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Active Players <span className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF]'>700+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Visits</span></span></span></h2>
                         <p className='pt-[16px] max-w-[324px] font-Orbitron font-bold text-[24px] leading-[31px] text-white'>Dino Island</p>
                         <p className='pt-[12px] max-w-[324px] opacity-[70%] font-Poppins font-normal text-[18px] leading-[28px] text-white'>Embark on an epic adventure in Dino Island, where you can explore a prehistoric world filled with dinosaurs and hidden treasures.</p>
                     </div>
-                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-100%  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
+                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-size  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
                         <img src={lavaImg} alt="lavaland" className='w-full max-w-[324px]' />
                         <h2 className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF] pt-[16px]'>700+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Active Players <span className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF]'>1000+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Visits</span></span></span></h2>
                         <p className='pt-[16px] max-w-[324px] font-Orbitron font-bold text-[24px] leading-[31px] text-white'>Fireplace</p>
                         <p className='pt-[12px] max-w-[324px] opacity-[70%] font-Poppins font-normal text-[18px] leading-[28px] text-white'>Experience cozy and adventurous gameplay around a virtual hearth, blending relaxation and excitement uniquely on Roblox.</p>
                     </div>
-                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-100%  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
+                    <div className='bg-fireplaceBgimg bg-no-repeat bg-center bg-size  w-full max-w-[324px] p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px]'>
                         <img src={catWashing} alt="catWashing" className='w-full max-w-[324px]' />
                         <h2 className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF] pt-[16px]'>800+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Active Players <span className='font-Poppins font-bold text-[14px] leading-[18px] text-[#3EBFFF]'>1200+ <span className='opacity-[70%] font-Poppins font-normal text-[14px] leading-[18px] text-white'>Visits</span></span></span></h2>
                         <p className='pt-[16px] max-w-[324px] font-Orbitron font-bold text-[24px] leading-[31px] text-white'>Cat Washing Tycoon</p>

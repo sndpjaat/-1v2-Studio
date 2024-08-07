@@ -75,8 +75,9 @@
 .slick-list {
   margin: 0 -12px;
 }
-.slider_center .slick-track {
+.slider_clients .slick-track {
   display: flex !important;
+  height: inherit !important;
   justify-content: center !important;
   align-items: center !important;
 }
@@ -138,3 +139,4 @@ display: flex !important;
 .feature_Slider .slick-track .slick-slide {
   margin: 0 12px;
 }
+

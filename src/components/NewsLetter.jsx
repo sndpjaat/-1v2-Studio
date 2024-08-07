@@ -5,10 +5,10 @@ import Suscribe_btn from '../assets/image/svg/Suscribe_btn.svg'
 
 const NewsLetter = () => {
   return (
-    <div className='bg-black my-[-2px] relative pb-[46px] '>
+    <div className='bg-black my-[-2px] relative py-[46px] '>
       <div className='max-w-[1164px] px-3 mx-auto z-10'>
         <div className='relative'>
-          <div className='bg-suscribeBgImg backgroundSize bg-no-repeat bg-center  max-w-[480px] backdrop-blur-md sm:max-w-[576px] md:max-w-[768px] lg:max-w-[900px] mx-auto w-full relative z-20 p-5 sm:p-[25px] md:p-[45px] flex items-center flex-col '>
+          <div className='bg-suscribeBgImg bg-100%  bg-no-repeat bg-center  max-w-[480px] backdrop-blur-md sm:max-w-[576px] md:max-w-[768px] lg:max-w-[900px] mx-auto w-full relative z-20 p-5 sm:p-[25px] md:p-[45px] flex items-center flex-col '>
             <h2 className='max-w-[660px] font-Orbitron font-bold text-[42px]  text-white pb-[12px]  sm:text-[32px] leading-[35px] md:text-[34px] md:leading-[45px] lg:text-[42px] lg:leading-[63px]'>Subscribe to our newsletter</h2>
             <p className='md:max-w-[524px] opacity-[70%] font-Poppins text-[18px]  md:text-[18px] leading-[22px] md:leading-[28px] text-white pb-[36px]'>Nulla sollicitudin nullam in scelerisque. Dolor neque pulvinar porttitor id eget volutpat faucibus sed. Tellus libero.</p>
             <div className='max-w-[489px] z-20 relative max-sm:max-w-[320px] border-[1px] mt-9 max-sm:mt-6 border-[#FFFFFF45] p-[6px] pl-[15px] flex w-full justify-between'>

@@ -26,7 +26,7 @@ module.exports = {
       },
 
       backgroundSize: {
-        size: "100% 100%"
+        '100%': "100% 100%"
       },
 
       backgroundImage: {
